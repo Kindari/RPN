@@ -1,0 +1,11 @@
+{
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"autoload": {
+		"files": ["src/rpn_helper.php"],
+		"psr-4": {
+			"Kindari\\RPN\\": "src/"
+		}
+	}
+}
