@@ -1,5 +1,10 @@
 <?php
 
+/**
+* This is a simple procedural implementation that is not related to the main RPN class.
+* I made this as a quick step one while thinking about the calculator's structure.
+*/
+
 function rpn($input) {
 	$tokens = explode(' ',$input);
 	#var_dump($tokens);
